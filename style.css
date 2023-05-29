@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+}
+
+.page-header {
+    display: grid;
+    grid-template-columns: 1fr 160px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 20px 40px 20px;
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.page-footer {
+    padding: 20px;
+    padding-top: 10px;
+}
